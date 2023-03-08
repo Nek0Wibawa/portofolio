@@ -1,0 +1,47 @@
+/* banner */
+.banner {
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .right, .banner .left {
+    width: 50%;
+}
+
+/* portofolio */
+.portofolio {
+    background-color: #0099FF;
+}
+
+.portofolio h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.portofolio .cards .card-before {
+    padding: 10px;
+}
+
+
+/* responsive */
+/* small */
+@media only screen and (max-width:576px){
+    
+}
+/* medium */
+@media only screen and (max-width:768px){
+    /* banner */
+.banner {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.banner .right, .banner .left {
+    width: 100%;
+}
+}
+/* large */
+@media only screen and (max-width:992px){
+
+}
